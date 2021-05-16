@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'gentium basic', sans-serif;
+    color: white;
+}
+
+#header{
+    
+    height: 100vh;
+     background:linear-gradient(to bottom, rgba(0,0,0,0) 70%, rgba(0,0,0,1)), url('../images/shutterstock_1836035359\ \(filtered\).jpg') no-repeat center center/cover;
+   
+    }
+
+.logo{
+    margin-left: 15px;
+}
+
+.flex-container{
+
+    display: flex;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 175px;
+    
+    
+}
+
+.navbar ul{
+    padding-top: 10px;
+    
+}
+
+.navbar li{
+    display: inline-block;
+    padding :5px;
+    
+    
+}
+
+.navbar li  a{
+    padding: 5px 10px ;
+    color: black;
+    
+    
+}
+
+.navbar a:hover{
+    cursor: pointer;
+    background-color: #5ab9ea;
+    border-radius: 15px;
+    opacity: 0.9;
+}
+
+.navbar a.current{
+    background-color: #5ab9ea;
+    border-radius: 15px ;
+}
+
+.content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 50px;
+    
+    
+
+}
+
+.content h1{
+    font-size: 55px;
+
+}
+
+.content p{
+    font-size: 23px;
+}
+
+.content .btn{
+    font-size: 18px;
+    color: black;
+    padding: 5px 10px ;
+    margin-top: 5px;
+
+}
+
+.content .btn.current{
+    background-color: #5ab9ea;
+    border-radius: 15px ;
+
+} 
+.content .btn:hover{
+    cursor: pointer;
+    background-color: #5ab9ea;
+    border-radius: 15px;
+    opacity: 0.9;
+}
+
+.services-container{
+    
+    margin-top: -10px;
+    
+   
+}
+
+.services-container h3{
+    font-size: 55px;
+    color: #6d529e;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    text-decoration: underline 3px;
+}
+.images{
+    /* display:flex */
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+.images img{
+    width:33%;
+    border:none;
+    border-radius: 50%;
+   
+    
+    
+}
+.images .image-1{
+    padding: 5px;
+   
+    
+    
+}
+.images .image-2{
+    padding: 5px;
+}
+.images .image-3{
+    padding: 5px;
+}
+.images .image-4{
+    padding: 5px;
+}
+.images .image-5{
+    padding: 5px;
+}
+.images .image-6{
+    padding: 5px;
+}
+
+.image-1:hover,
+.image-2:hover,
+.image-3:hover,
+.image-4:hover,
+.image-5:hover,
+.image-6:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+/* About me */
+
+#about-me{
+    width: 100%;
+    height: 1100px;
+    margin-top: 200px;
+    background: url(../images/shutterstock_219361369.jpg) no-repeat center center/cover ;
+}
+
+.about-flexcontainer{
+    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    color: black;
+
+    line-height: 1.8;
+    padding: 20px;
+    
+}
+
+.img{
+    background-color:white;
+    
+}
+
+.about-flexcontainer img{
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+.about-flexcontainer h1{
+   font-size: 75px;
+   text-align: center;
+   font-weight: lighter;
+  
+}
+
+.about-flexcontainer h2{
+font-size: 44px;
+text-decoration: underline;
+text-align: center;
+font-weight: lighter;
+
+
+}
+
+.p{
+    border-radius: 40%;
+    background-color: #5ab9ea;
+    
+    
+}
+
+.pp{
+    background-color:lightgray;
+    border-radius: 50%;
+}
+
+p{
+
+    line-height: 2.3;
+    padding: 5px 10px;
+    text-indent: 10px;
+    text-align: center;
+    
+    font-size: 19px;
+    
+    color:black
+    
+  
+
+    
+    
+}
+
